@@ -1,3 +1,6 @@
+//Didn't realize I had put everything in return functions until after github upload, I should just be returning the functions.
+//Thiiis is why I had so many problems, I understand now. I don't know how I didn't notice I was doing that.
+
 var serverLoadSize = 500;
 var FileBrowseButton = React.createClass({
 	getInitialState: function(){
@@ -33,41 +36,33 @@ React.render(
 
 // var FileBrowserInit = React.createClass({displayName: 'fileBrowser', //Initalization of the entire thing
 // 	render: function(){
-// 		return(
 // 			React.createElement('div', {className: "fileBrowser" },
 // 				<div>
 // 				<h1> File Browser </h1>
 // 				<FileUploadList data={this.props.data}/> //json data 
 // 				<UploadForm/> //from uploadform
 // 				</div>
-// 				)
 // 			);
 // 	}
 // });
 // var FileUploadList = React.createClass({ //The list of files uploaded
 // 	render: function(){
 // 		var fileNodes = this.props.data.map(function(comment){
-// 			return(
 // 				<File fileUploader={File.fileUploader}>
 // 				{File.file}
 // 				</File>
-// 				);
 // 		});
-// 		return (
 // 			<div className="fileUploadList">
 // 			{fileNodes}
 // 			</div>
-// 			);
 // 	}
 // });
 
 // var UploadForm = React.createClass({ //The upload form
 // 	render: function(){
-// 		return (
 // 			<div className="uploadForm">
 // 			"Upload Form"
 // 			</div>
-// 			);
 // 	}
 // });
 
